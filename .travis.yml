@@ -2,8 +2,4 @@ language: python
 python:
   - "2.6"
   - "2.7"
-  - "3.2"
-  - "3.3"
-  - "3.4"
-  - "3.5"
-script: python ini_to_yml.py --in tests/example.ini --out tests/example.yml
+script: bash tests/test.sh
