@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-import Confi2gParser
+import ConfigParser
 import yaml
 import argparse
 
